@@ -58,3 +58,7 @@ VSC.
 - Abra o terminal e digite: pip3 install opencv-python
 
 - https://s3-whjr-curriculum-uploads.whjr.online/ffe2f09c-c186-43dc-8434-6e7493398447.html#/20
+
+- Var dar erros ao instalar o módulo, verificar se o pip está instalado corretamente:
+- (se der erro no pip isso resolve: python -m ensurepip --upgrade)
+- Ao arrumar o pip use o: pip install opencv-python
