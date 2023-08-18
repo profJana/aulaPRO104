@@ -62,3 +62,13 @@ VSC.
 - Var dar erros ao instalar o módulo, verificar se o pip está instalado corretamente:
 - (se der erro no pip isso resolve: python -m ensurepip --upgrade)
 - Ao arrumar o pip use o: pip install opencv-python
+- É importante lembrar que, em geral, as imagens coloridas são
+representadas como uma sequência de bandas RGB, mas no
+OpenCV elas são representadas como uma sequência de
+bandas BGR. Isso não afeta o resultado geral, pois apenas a
+sequência é alterada e não os números que formam as cores
+juntas!
+
+- Fazer primeiro as atividades do arquivo read_image
+
+- Depois ir para o arquivo image_with_arrays para criar imagens usando código
